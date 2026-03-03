@@ -1,0 +1,44 @@
+[
+  {
+    "id": "iluminacion",
+    "nombre": "Iluminación Inteligente",
+    "descripcion": "Controla tus luces desde el smartphone. Crea escenas personalizadas, ajusta la intensidad y color según tu necesidad.",
+    "icono": "Lightbulb",
+    "imagen": "https://picsum.photos/id/1016/400/300"
+  },
+  {
+    "id": "clima",
+    "nombre": "Control de Clima",
+    "descripcion": "Automatiza tu aire acondicionado y calefacción. Mantén la temperatura perfecta con ahorro energético.",
+    "icono": "Thermometer",
+    "imagen": "https://picsum.photos/id/1036/400/300"
+  },
+  {
+    "id": "acceso",
+    "nombre": "Control de Acceso",
+    "descripcion": "Puertas inteligentes con reconocimiento biométrico. Acceso remoto y registro de entradas/salidas.",
+    "icono": "Lock",
+    "imagen": "https://picsum.photos/id/1074/400/300"
+  },
+  {
+    "id": "persianas",
+    "nombre": "Persianas Automatizadas",
+    "descripcion": "Controla persinas y cortinas desde tu móvil. Sincroniza con la luz solar para máximo confort.",
+    "icono": "Blinds",
+    "imagen": "https://picsum.photos/id/1015/400/300"
+  },
+  {
+    "id": "seguridad",
+    "nombre": "Seguridad Avanzada",
+    "descripcion": "Cámaras inteligentes, sensores de movimiento y alarmas conectadas. Vigilancia 24/7 desde cualquier lugar.",
+    "icono": "Camera",
+    "imagen": "https://picsum.photos/id/1060/400/300"
+  },
+  {
+    "id": "energia",
+    "nombre": "Gestión de Energía",
+    "descripcion": "Monitorea y optimiza el consumo de energía de tus dispositivos. Reduce gastos hasta un 40%.",
+    "icono": "Zap",
+    "imagen": "https://picsum.photos/id/1005/400/300"
+  }
+]

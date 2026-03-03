@@ -1,0 +1,44 @@
+[
+  {
+    "id": "proyecto-1",
+    "titulo": "Casa Moderna en Providencia",
+    "descripcion": "Automatización completa de vivienda de 3 pisos con integración de todos los sistemas.",
+    "imagen": "https://picsum.photos/id/1080/500/400",
+    "servicios": ["iluminacion", "clima", "acceso", "persianas"]
+  },
+  {
+    "id": "proyecto-2",
+    "titulo": "Oficina Corporativa",
+    "descripcion": "Sistema inteligente para gestión energética y control de acceso en oficinas de 5000 m².",
+    "imagen": "https://picsum.photos/id/1015/500/400",
+    "servicios": ["iluminacion", "clima", "acceso", "energia"]
+  },
+  {
+    "id": "proyecto-3",
+    "titulo": "Residencia de Lujo",
+    "descripcion": "Home cinema, spa doméstico y sistema de seguridad de última generación.",
+    "imagen": "https://picsum.photos/id/1082/500/400",
+    "servicios": ["iluminacion", "clima", "seguridad", "persianas"]
+  },
+  {
+    "id": "proyecto-4",
+    "titulo": "Hotel Boutique",
+    "descripcion": "Automatización de 25 habitaciones con control central y ahorro energético.",
+    "imagen": "https://picsum.photos/id/1021/500/400",
+    "servicios": ["iluminacion", "clima", "acceso", "energia"]
+  },
+  {
+    "id": "proyecto-5",
+    "titulo": "Hogar Inteligente Eco",
+    "descripcion": "Casa con paneles solares integrados y sistema de automatización sostenible.",
+    "imagen": "https://picsum.photos/id/1036/500/400",
+    "servicios": ["iluminacion", "energia", "clima", "persianas"]
+  },
+  {
+    "id": "proyecto-6",
+    "titulo": "Clínica Médica",
+    "descripcion": "Control de acceso biométrico y sistema de seguridad para instalación médica.",
+    "imagen": "https://picsum.photos/id/1025/500/400",
+    "servicios": ["acceso", "seguridad", "clima"]
+  }
+]

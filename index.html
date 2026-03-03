@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Luis León</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; width: 100%; }
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .project-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+        }
+        .project-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+        .project-name {
+            font-size: 1.3rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+        .project-link {
+            display: inline-block;
+            padding: 0.9rem 2.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        .project-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .subtitle { font-size: 1rem; }
+            .projects-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Portafolio de Luis León</h1>
+        <p class="subtitle">Explora mis proyectos de desarrollo web</p>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-number">1</div>
+                <div class="project-name">Technik Automation</div>
+                <a href="./1/" class="project-link">Ver Proyecto →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-number">2</div>
+                <div class="project-name">Portfolio Web</div>
+                <a href="./2/" class="project-link">Ver Proyecto →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-number">3</div>
+                <div class="project-name">Business Site</div>
+                <a href="./3/" class="project-link">Ver Proyecto →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-number">4</div>
+                <div class="project-name">Services Platform</div>
+                <a href="./4/" class="project-link">Ver Proyecto →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-number">5</div>
+                <div class="project-name">AI Assistant</div>
+                <a href="./5/" class="project-link">Ver Proyecto →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-number">6</div>
+                <div class="project-name">Full Stack App</div>
+                <a href="./6/" class="project-link">Ver Proyecto →</a>
+            </div>
+            <div class="project-card">
+                <div class="project-number">7</div>
+                <div class="project-name">Main Project</div>
+                <a href="./7/" class="project-link">Ver Proyecto →</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2026 Luis León - Desarrollador Web Full Stack</p>
+        </div>
+    </div>
+</body>
+</html>
